@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LLAUSOFT</Machine>
+    <WindowsUser>Edwin</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d</PackageIdentityName>
+    <RegisteredManifestChecksum>0588C0D53A6BE1330438EC67F99906AD313C26795634B19D9768CDB843B21A02</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d_1.0.0.0_neutral__qk438tt3zzh9r</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d_qk438tt3zzh9r!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Edwin</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Developer\3. PalIn\PalIn\PalIn\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-11-21T21:19:41.499</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\bin\Debug\PalIn.exe">
+      <PackagePath>PalIn.exe</PackagePath>
+      <Modified>2013-12-22T05:33:19.856</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-26T11:12:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-26T11:12:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-11-21T21:33:35.127</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-26T11:12:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Botones\m_cinco-01-01.png">
+      <PackagePath>Botones\m_cinco-01-01.png</PackagePath>
+      <Modified>2013-11-21T17:07:50.507</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Botones\m_cuatro-01-01.png">
+      <PackagePath>Botones\m_cuatro-01-01.png</PackagePath>
+      <Modified>2013-11-21T17:07:50.511</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Botones\m_dos-01-01.png">
+      <PackagePath>Botones\m_dos-01-01.png</PackagePath>
+      <Modified>2013-11-21T17:07:50.512</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Botones\m_seis-01-01.png">
+      <PackagePath>Botones\m_seis-01-01.png</PackagePath>
+      <Modified>2013-11-21T17:07:50.514</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Botones\m_tres-01-01.png">
+      <PackagePath>Botones\m_tres-01-01.png</PackagePath>
+      <Modified>2013-11-21T17:07:50.516</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Botones\m_uno-01-01.png">
+      <PackagePath>Botones\m_uno-01-01.png</PackagePath>
+      <Modified>2013-11-21T17:07:50.504</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Fondos\fondo cinco-01.png">
+      <PackagePath>Fondos\fondo cinco-01.png</PackagePath>
+      <Modified>2013-11-21T17:29:46.583</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Fondos\fondo cuatro-01.png">
+      <PackagePath>Fondos\fondo cuatro-01.png</PackagePath>
+      <Modified>2013-11-21T17:29:46.585</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Fondos\fondo dos-01.png">
+      <PackagePath>Fondos\fondo dos-01.png</PackagePath>
+      <Modified>2013-11-21T17:29:46.587</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Fondos\fondo nueve-01.png">
+      <PackagePath>Fondos\fondo nueve-01.png</PackagePath>
+      <Modified>2013-11-21T17:29:46.589</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Fondos\fondo ocho-01.png">
+      <PackagePath>Fondos\fondo ocho-01.png</PackagePath>
+      <Modified>2013-11-21T17:29:46.591</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Fondos\fondo seis-01.png">
+      <PackagePath>Fondos\fondo seis-01.png</PackagePath>
+      <Modified>2013-11-21T17:29:46.574</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Fondos\fondo siete-01.png">
+      <PackagePath>Fondos\fondo siete-01.png</PackagePath>
+      <Modified>2013-11-21T17:29:46.576</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Fondos\fondo tres-01.png">
+      <PackagePath>Fondos\fondo tres-01.png</PackagePath>
+      <Modified>2013-11-21T17:29:46.579</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Fondos\fondo uno-01.png">
+      <PackagePath>Fondos\fondo uno-01.png</PackagePath>
+      <Modified>2013-11-21T17:29:46.581</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Imagenenes\Comunicador.png">
+      <PackagePath>Imagenenes\Comunicador.png</PackagePath>
+      <Modified>2013-11-21T16:08:00.344</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Imagenenes\deletreo.png">
+      <PackagePath>Imagenenes\deletreo.png</PackagePath>
+      <Modified>2013-11-21T16:08:00.345</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Imagenenes\FondoPrincipal.png">
+      <PackagePath>Imagenenes\FondoPrincipal.png</PackagePath>
+      <Modified>2013-11-21T16:08:00.346</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Imagenenes\fonemas.png">
+      <PackagePath>Imagenenes\fonemas.png</PackagePath>
+      <Modified>2013-11-21T16:08:00.347</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Imagenenes\formar palabras.png">
+      <PackagePath>Imagenenes\formar palabras.png</PackagePath>
+      <Modified>2013-11-21T16:08:00.348</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Imagenenes\lector.png">
+      <PackagePath>Imagenenes\lector.png</PackagePath>
+      <Modified>2013-11-21T16:08:00.349</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Imagenenes\pares.png">
+      <PackagePath>Imagenenes\pares.png</PackagePath>
+      <Modified>2013-11-21T16:08:00.350</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Imagenenes\PEcuaVoice.png">
+      <PackagePath>Imagenenes\PEcuaVoice.png</PackagePath>
+      <Modified>2013-11-21T21:20:48.230</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Imagenenes\Rimas.png">
+      <PackagePath>Imagenenes\Rimas.png</PackagePath>
+      <Modified>2013-11-21T16:08:00.340</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Imagenenes\silabascompuestas.png">
+      <PackagePath>Imagenenes\silabascompuestas.png</PackagePath>
+      <Modified>2013-11-21T16:08:00.341</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Imagenenes\sonidos.png">
+      <PackagePath>Imagenenes\sonidos.png</PackagePath>
+      <Modified>2013-11-21T16:08:00.342</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Imagenenes\trabalengua.png">
+      <PackagePath>Imagenenes\trabalengua.png</PackagePath>
+      <Modified>2013-11-21T16:08:00.343</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Pictogramas\Agua.png">
+      <PackagePath>Pictogramas\Agua.png</PackagePath>
+      <Modified>2013-11-21T17:09:15.645</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Pictogramas\Comer.png">
+      <PackagePath>Pictogramas\Comer.png</PackagePath>
+      <Modified>2013-11-21T17:09:15.647</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Pictogramas\donde_esta.png">
+      <PackagePath>Pictogramas\donde_esta.png</PackagePath>
+      <Modified>2013-11-21T17:09:15.626</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Pictogramas\donde_vamos.png">
+      <PackagePath>Pictogramas\donde_vamos.png</PackagePath>
+      <Modified>2013-11-21T17:09:15.627</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Pictogramas\el.png">
+      <PackagePath>Pictogramas\el.png</PackagePath>
+      <Modified>2013-11-21T17:09:15.629</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Pictogramas\ella.png">
+      <PackagePath>Pictogramas\ella.png</PackagePath>
+      <Modified>2013-11-21T17:09:15.631</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Pictogramas\Galletas.png">
+      <PackagePath>Pictogramas\Galletas.png</PackagePath>
+      <Modified>2013-11-21T17:09:15.632</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Pictogramas\Jugar.png">
+      <PackagePath>Pictogramas\Jugar.png</PackagePath>
+      <Modified>2013-11-21T17:09:15.634</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Pictogramas\Leche.png">
+      <PackagePath>Pictogramas\Leche.png</PackagePath>
+      <Modified>2013-11-21T17:09:15.636</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Pictogramas\NoQuerer.png">
+      <PackagePath>Pictogramas\NoQuerer.png</PackagePath>
+      <Modified>2013-11-21T17:09:15.637</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Pictogramas\Querer.png">
+      <PackagePath>Pictogramas\Querer.png</PackagePath>
+      <Modified>2013-11-21T17:09:15.641</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Pictogramas\que_dices.png">
+      <PackagePath>Pictogramas\que_dices.png</PackagePath>
+      <Modified>2013-11-21T17:09:15.639</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Pictogramas\que_es_eso.png">
+      <PackagePath>Pictogramas\que_es_eso.png</PackagePath>
+      <Modified>2013-11-21T17:09:15.640</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Pictogramas\Sopa.png">
+      <PackagePath>Pictogramas\Sopa.png</PackagePath>
+      <Modified>2013-11-21T17:09:15.642</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Pictogramas\tu.png">
+      <PackagePath>Pictogramas\tu.png</PackagePath>
+      <Modified>2013-11-21T17:09:15.643</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Pictogramas\Yo.png">
+      <PackagePath>Pictogramas\Yo.png</PackagePath>
+      <Modified>2013-11-21T17:09:15.644</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Titulos\t_comunicador-01.png">
+      <PackagePath>Titulos\t_comunicador-01.png</PackagePath>
+      <Modified>2013-11-21T17:09:34.414</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Titulos\t_deletreo-01.png">
+      <PackagePath>Titulos\t_deletreo-01.png</PackagePath>
+      <Modified>2013-11-21T17:09:34.417</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Titulos\t_fonemas-01.png">
+      <PackagePath>Titulos\t_fonemas-01.png</PackagePath>
+      <Modified>2013-11-21T17:09:34.419</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Titulos\t_formar palabras-01.png">
+      <PackagePath>Titulos\t_formar palabras-01.png</PackagePath>
+      <Modified>2013-11-21T17:09:34.422</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Titulos\t_lector-01.png">
+      <PackagePath>Titulos\t_lector-01.png</PackagePath>
+      <Modified>2013-11-21T17:09:34.400</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Titulos\t_pares minimos-01.png">
+      <PackagePath>Titulos\t_pares minimos-01.png</PackagePath>
+      <Modified>2013-11-21T17:09:34.402</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Titulos\t_rimas-01.png">
+      <PackagePath>Titulos\t_rimas-01.png</PackagePath>
+      <Modified>2013-11-21T17:09:34.406</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Titulos\t_silabas compuestas-01.png">
+      <PackagePath>Titulos\t_silabas compuestas-01.png</PackagePath>
+      <Modified>2013-11-21T17:09:34.408</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Titulos\t_trabalengua-01.png">
+      <PackagePath>Titulos\t_trabalengua-01.png</PackagePath>
+      <Modified>2013-11-21T17:09:34.412</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+      <Modified>2013-11-21T15:43:54.176</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\videos\a.wmv">
+      <PackagePath>videos\a.wmv</PackagePath>
+      <Modified>2013-11-21T17:38:55.416</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\videos\m.wmv">
+      <PackagePath>videos\m.wmv</PackagePath>
+      <Modified>2013-11-21T17:38:55.413</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2013-11-21T15:37:50.566</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\bin\Debug\Comunica.xbf">
+      <PackagePath>Comunica.xbf</PackagePath>
+      <Modified>2013-11-21T16:50:38.561</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\bin\Debug\Comunicador.xbf">
+      <PackagePath>Comunicador.xbf</PackagePath>
+      <Modified>2013-11-21T20:25:51.545</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\bin\Debug\Fonemas.xbf">
+      <PackagePath>Fonemas.xbf</PackagePath>
+      <Modified>2013-11-21T20:25:51.547</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\bin\Debug\Lectora..xbf">
+      <PackagePath>Lectora..xbf</PackagePath>
+      <Modified>2013-11-21T20:25:51.547</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2013-12-22T05:33:19.591</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\bin\Debug\Pares.xbf">
+      <PackagePath>Pares.xbf</PackagePath>
+      <Modified>2013-11-21T20:25:51.551</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\bin\Debug\Rimas.xbf">
+      <PackagePath>Rimas.xbf</PackagePath>
+      <Modified>2013-11-21T20:25:51.553</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\bin\Debug\Silaba.xbf">
+      <PackagePath>Silaba.xbf</PackagePath>
+      <Modified>2013-11-21T20:25:51.555</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\bin\Debug\Trabalenguas.xbf">
+      <PackagePath>Trabalenguas.xbf</PackagePath>
+      <Modified>2013-11-21T20:25:51.557</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-11-21T21:19:41.288</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

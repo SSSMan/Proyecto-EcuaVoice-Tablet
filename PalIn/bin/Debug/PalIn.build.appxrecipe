@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LLAUSOFT</Machine>
+    <WindowsUser>Edwin</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d</PackageIdentityName>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Developer\3. PalIn\PalIn\PalIn\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\bin\Debug\PalIn.exe">
+      <PackagePath>PalIn.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Botones\m_cinco-01-01.png">
+      <PackagePath>Botones\m_cinco-01-01.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Botones\m_cuatro-01-01.png">
+      <PackagePath>Botones\m_cuatro-01-01.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Botones\m_dos-01-01.png">
+      <PackagePath>Botones\m_dos-01-01.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Botones\m_seis-01-01.png">
+      <PackagePath>Botones\m_seis-01-01.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Botones\m_tres-01-01.png">
+      <PackagePath>Botones\m_tres-01-01.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Botones\m_uno-01-01.png">
+      <PackagePath>Botones\m_uno-01-01.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Fondos\fondo cinco-01.png">
+      <PackagePath>Fondos\fondo cinco-01.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Fondos\fondo cuatro-01.png">
+      <PackagePath>Fondos\fondo cuatro-01.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Fondos\fondo dos-01.png">
+      <PackagePath>Fondos\fondo dos-01.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Fondos\fondo nueve-01.png">
+      <PackagePath>Fondos\fondo nueve-01.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Fondos\fondo ocho-01.png">
+      <PackagePath>Fondos\fondo ocho-01.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Fondos\fondo seis-01.png">
+      <PackagePath>Fondos\fondo seis-01.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Fondos\fondo siete-01.png">
+      <PackagePath>Fondos\fondo siete-01.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Fondos\fondo tres-01.png">
+      <PackagePath>Fondos\fondo tres-01.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Fondos\fondo uno-01.png">
+      <PackagePath>Fondos\fondo uno-01.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Imagenenes\Comunicador.png">
+      <PackagePath>Imagenenes\Comunicador.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Imagenenes\deletreo.png">
+      <PackagePath>Imagenenes\deletreo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Imagenenes\FondoPrincipal.png">
+      <PackagePath>Imagenenes\FondoPrincipal.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Imagenenes\fonemas.png">
+      <PackagePath>Imagenenes\fonemas.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Imagenenes\formar palabras.png">
+      <PackagePath>Imagenenes\formar palabras.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Imagenenes\lector.png">
+      <PackagePath>Imagenenes\lector.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Imagenenes\pares.png">
+      <PackagePath>Imagenenes\pares.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Imagenenes\PEcuaVoice.png">
+      <PackagePath>Imagenenes\PEcuaVoice.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Imagenenes\Rimas.png">
+      <PackagePath>Imagenenes\Rimas.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Imagenenes\silabascompuestas.png">
+      <PackagePath>Imagenenes\silabascompuestas.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Imagenenes\sonidos.png">
+      <PackagePath>Imagenenes\sonidos.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Imagenenes\trabalengua.png">
+      <PackagePath>Imagenenes\trabalengua.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Pictogramas\Agua.png">
+      <PackagePath>Pictogramas\Agua.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Pictogramas\Comer.png">
+      <PackagePath>Pictogramas\Comer.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Pictogramas\donde_esta.png">
+      <PackagePath>Pictogramas\donde_esta.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Pictogramas\donde_vamos.png">
+      <PackagePath>Pictogramas\donde_vamos.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Pictogramas\el.png">
+      <PackagePath>Pictogramas\el.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Pictogramas\ella.png">
+      <PackagePath>Pictogramas\ella.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Pictogramas\Galletas.png">
+      <PackagePath>Pictogramas\Galletas.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Pictogramas\Jugar.png">
+      <PackagePath>Pictogramas\Jugar.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Pictogramas\Leche.png">
+      <PackagePath>Pictogramas\Leche.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Pictogramas\NoQuerer.png">
+      <PackagePath>Pictogramas\NoQuerer.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Pictogramas\Querer.png">
+      <PackagePath>Pictogramas\Querer.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Pictogramas\que_dices.png">
+      <PackagePath>Pictogramas\que_dices.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Pictogramas\que_es_eso.png">
+      <PackagePath>Pictogramas\que_es_eso.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Pictogramas\Sopa.png">
+      <PackagePath>Pictogramas\Sopa.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Pictogramas\tu.png">
+      <PackagePath>Pictogramas\tu.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Pictogramas\Yo.png">
+      <PackagePath>Pictogramas\Yo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Titulos\t_comunicador-01.png">
+      <PackagePath>Titulos\t_comunicador-01.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Titulos\t_deletreo-01.png">
+      <PackagePath>Titulos\t_deletreo-01.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Titulos\t_fonemas-01.png">
+      <PackagePath>Titulos\t_fonemas-01.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Titulos\t_formar palabras-01.png">
+      <PackagePath>Titulos\t_formar palabras-01.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Titulos\t_lector-01.png">
+      <PackagePath>Titulos\t_lector-01.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Titulos\t_pares minimos-01.png">
+      <PackagePath>Titulos\t_pares minimos-01.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Titulos\t_rimas-01.png">
+      <PackagePath>Titulos\t_rimas-01.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Titulos\t_silabas compuestas-01.png">
+      <PackagePath>Titulos\t_silabas compuestas-01.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Titulos\t_trabalengua-01.png">
+      <PackagePath>Titulos\t_trabalengua-01.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\videos\a.wmv">
+      <PackagePath>videos\a.wmv</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\videos\m.wmv">
+      <PackagePath>videos\m.wmv</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\bin\Debug\Comunica.xbf">
+      <PackagePath>Comunica.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\bin\Debug\Comunicador.xbf">
+      <PackagePath>Comunicador.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\bin\Debug\Fonemas.xbf">
+      <PackagePath>Fonemas.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\bin\Debug\Lectora..xbf">
+      <PackagePath>Lectora..xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\bin\Debug\Pares.xbf">
+      <PackagePath>Pares.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\bin\Debug\Rimas.xbf">
+      <PackagePath>Rimas.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\bin\Debug\Silaba.xbf">
+      <PackagePath>Silaba.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\bin\Debug\Trabalenguas.xbf">
+      <PackagePath>Trabalenguas.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Developer\3. PalIn\PalIn\PalIn\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

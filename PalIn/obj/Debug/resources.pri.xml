@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d" version="1.0" primary="true">
+		<Qualifiers>
+			<Scale>100</Scale>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/App.xbf">
+				<Candidate type="Path">
+					<Value>App.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Comunica.xbf" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Comunica.xbf">
+				<Candidate type="Path">
+					<Value>Comunica.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Comunicador.xbf" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Comunicador.xbf">
+				<Candidate type="Path">
+					<Value>Comunicador.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Fonemas.xbf" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Fonemas.xbf">
+				<Candidate type="Path">
+					<Value>Fonemas.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Lectora..xbf" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Lectora..xbf">
+				<Candidate type="Path">
+					<Value>Lectora..xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/MainPage.xbf">
+				<Candidate type="Path">
+					<Value>MainPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Pares.xbf" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Pares.xbf">
+				<Candidate type="Path">
+					<Value>Pares.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Rimas.xbf" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Rimas.xbf">
+				<Candidate type="Path">
+					<Value>Rimas.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Silaba.xbf" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Silaba.xbf">
+				<Candidate type="Path">
+					<Value>Silaba.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Trabalenguas.xbf" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Trabalenguas.xbf">
+				<Candidate type="Path">
+					<Value>Trabalenguas.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="Logo.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Assets/Logo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\Logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallLogo.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Assets/SmallLogo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\SmallLogo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Botones">
+				<NamedResource name="m_cinco-01-01.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Botones/m_cinco-01-01.png">
+					<Candidate type="Path">
+						<Value>Botones\m_cinco-01-01.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="m_cuatro-01-01.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Botones/m_cuatro-01-01.png">
+					<Candidate type="Path">
+						<Value>Botones\m_cuatro-01-01.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="m_dos-01-01.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Botones/m_dos-01-01.png">
+					<Candidate type="Path">
+						<Value>Botones\m_dos-01-01.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="m_seis-01-01.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Botones/m_seis-01-01.png">
+					<Candidate type="Path">
+						<Value>Botones\m_seis-01-01.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="m_tres-01-01.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Botones/m_tres-01-01.png">
+					<Candidate type="Path">
+						<Value>Botones\m_tres-01-01.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="m_uno-01-01.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Botones/m_uno-01-01.png">
+					<Candidate type="Path">
+						<Value>Botones\m_uno-01-01.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Common">
+				<NamedResource name="ReadMe.txt" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Common/ReadMe.txt">
+					<Candidate type="Path">
+						<Value>Common\ReadMe.txt</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Fondos">
+				<NamedResource name="fondo cinco-01.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Fondos/fondo%20cinco-01.png">
+					<Candidate type="Path">
+						<Value>Fondos\fondo cinco-01.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="fondo cuatro-01.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Fondos/fondo%20cuatro-01.png">
+					<Candidate type="Path">
+						<Value>Fondos\fondo cuatro-01.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="fondo dos-01.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Fondos/fondo%20dos-01.png">
+					<Candidate type="Path">
+						<Value>Fondos\fondo dos-01.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="fondo nueve-01.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Fondos/fondo%20nueve-01.png">
+					<Candidate type="Path">
+						<Value>Fondos\fondo nueve-01.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="fondo ocho-01.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Fondos/fondo%20ocho-01.png">
+					<Candidate type="Path">
+						<Value>Fondos\fondo ocho-01.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="fondo seis-01.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Fondos/fondo%20seis-01.png">
+					<Candidate type="Path">
+						<Value>Fondos\fondo seis-01.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="fondo siete-01.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Fondos/fondo%20siete-01.png">
+					<Candidate type="Path">
+						<Value>Fondos\fondo siete-01.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="fondo tres-01.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Fondos/fondo%20tres-01.png">
+					<Candidate type="Path">
+						<Value>Fondos\fondo tres-01.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="fondo uno-01.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Fondos/fondo%20uno-01.png">
+					<Candidate type="Path">
+						<Value>Fondos\fondo uno-01.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Imagenenes">
+				<NamedResource name="Comunicador.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Imagenenes/Comunicador.png">
+					<Candidate type="Path">
+						<Value>Imagenenes\Comunicador.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="deletreo.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Imagenenes/deletreo.png">
+					<Candidate type="Path">
+						<Value>Imagenenes\deletreo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="FondoPrincipal.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Imagenenes/FondoPrincipal.png">
+					<Candidate type="Path">
+						<Value>Imagenenes\FondoPrincipal.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="fonemas.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Imagenenes/fonemas.png">
+					<Candidate type="Path">
+						<Value>Imagenenes\fonemas.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="formar palabras.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Imagenenes/formar%20palabras.png">
+					<Candidate type="Path">
+						<Value>Imagenenes\formar palabras.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="lector.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Imagenenes/lector.png">
+					<Candidate type="Path">
+						<Value>Imagenenes\lector.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="pares.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Imagenenes/pares.png">
+					<Candidate type="Path">
+						<Value>Imagenenes\pares.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PEcuaVoice.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Imagenenes/PEcuaVoice.png">
+					<Candidate type="Path">
+						<Value>Imagenenes\PEcuaVoice.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Rimas.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Imagenenes/Rimas.png">
+					<Candidate type="Path">
+						<Value>Imagenenes\Rimas.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="silabascompuestas.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Imagenenes/silabascompuestas.png">
+					<Candidate type="Path">
+						<Value>Imagenenes\silabascompuestas.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="sonidos.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Imagenenes/sonidos.png">
+					<Candidate type="Path">
+						<Value>Imagenenes\sonidos.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="trabalengua.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Imagenenes/trabalengua.png">
+					<Candidate type="Path">
+						<Value>Imagenenes\trabalengua.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Pictogramas">
+				<NamedResource name="Agua.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Pictogramas/Agua.png">
+					<Candidate type="Path">
+						<Value>Pictogramas\Agua.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Comer.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Pictogramas/Comer.png">
+					<Candidate type="Path">
+						<Value>Pictogramas\Comer.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="donde_esta.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Pictogramas/donde_esta.png">
+					<Candidate type="Path">
+						<Value>Pictogramas\donde_esta.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="donde_vamos.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Pictogramas/donde_vamos.png">
+					<Candidate type="Path">
+						<Value>Pictogramas\donde_vamos.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="el.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Pictogramas/el.png">
+					<Candidate type="Path">
+						<Value>Pictogramas\el.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ella.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Pictogramas/ella.png">
+					<Candidate type="Path">
+						<Value>Pictogramas\ella.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Galletas.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Pictogramas/Galletas.png">
+					<Candidate type="Path">
+						<Value>Pictogramas\Galletas.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Jugar.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Pictogramas/Jugar.png">
+					<Candidate type="Path">
+						<Value>Pictogramas\Jugar.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Leche.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Pictogramas/Leche.png">
+					<Candidate type="Path">
+						<Value>Pictogramas\Leche.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="NoQuerer.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Pictogramas/NoQuerer.png">
+					<Candidate type="Path">
+						<Value>Pictogramas\NoQuerer.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Querer.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Pictogramas/Querer.png">
+					<Candidate type="Path">
+						<Value>Pictogramas\Querer.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="que_dices.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Pictogramas/que_dices.png">
+					<Candidate type="Path">
+						<Value>Pictogramas\que_dices.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="que_es_eso.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Pictogramas/que_es_eso.png">
+					<Candidate type="Path">
+						<Value>Pictogramas\que_es_eso.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Sopa.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Pictogramas/Sopa.png">
+					<Candidate type="Path">
+						<Value>Pictogramas\Sopa.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="tu.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Pictogramas/tu.png">
+					<Candidate type="Path">
+						<Value>Pictogramas\tu.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Yo.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Pictogramas/Yo.png">
+					<Candidate type="Path">
+						<Value>Pictogramas\Yo.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Titulos">
+				<NamedResource name="t_comunicador-01.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Titulos/t_comunicador-01.png">
+					<Candidate type="Path">
+						<Value>Titulos\t_comunicador-01.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="t_deletreo-01.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Titulos/t_deletreo-01.png">
+					<Candidate type="Path">
+						<Value>Titulos\t_deletreo-01.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="t_fonemas-01.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Titulos/t_fonemas-01.png">
+					<Candidate type="Path">
+						<Value>Titulos\t_fonemas-01.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="t_formar palabras-01.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Titulos/t_formar%20palabras-01.png">
+					<Candidate type="Path">
+						<Value>Titulos\t_formar palabras-01.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="t_lector-01.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Titulos/t_lector-01.png">
+					<Candidate type="Path">
+						<Value>Titulos\t_lector-01.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="t_pares minimos-01.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Titulos/t_pares%20minimos-01.png">
+					<Candidate type="Path">
+						<Value>Titulos\t_pares minimos-01.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="t_rimas-01.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Titulos/t_rimas-01.png">
+					<Candidate type="Path">
+						<Value>Titulos\t_rimas-01.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="t_silabas compuestas-01.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Titulos/t_silabas%20compuestas-01.png">
+					<Candidate type="Path">
+						<Value>Titulos\t_silabas compuestas-01.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="t_trabalengua-01.png" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/Titulos/t_trabalengua-01.png">
+					<Candidate type="Path">
+						<Value>Titulos\t_trabalengua-01.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="videos">
+				<NamedResource name="a.wmv" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/videos/a.wmv">
+					<Candidate type="Path">
+						<Value>videos\a.wmv</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="m.wmv" uri="ms-resource://d29fd6e5-cced-44e1-a9fa-f1f0d1f8f66d/Files/videos/m.wmv">
+					<Candidate type="Path">
+						<Value>videos\m.wmv</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

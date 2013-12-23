@@ -1,0 +1,286 @@
+﻿<Page
+    x:Name="pageRoot"
+    x:Class="PalIn.Silaba"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PalIn"
+    xmlns:common="using:PalIn.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">My Application</x:String>
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid>
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="Fondos/fondo seis-01.png"/>
+        </Grid.Background>
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+        <Grid Background="#FFC34883">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="backButton" Margin="39,59,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+                        Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        VerticalAlignment="Top"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button"/>
+            <TextBlock x:Name="pageTitle" Text="Silabas Compuestas" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+                        IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40"/>
+        </Grid>
+
+
+        <Grid HorizontalAlignment="Left" Height="549" VerticalAlignment="Top" Width="195" Margin="0,26,0,0" Grid.Row="1">
+            <Button x:ConnectionId='0' x:Name="btnbra" Content="bra" HorizontalAlignment="Left" Margin="15,5,0,0" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_uno-01-01.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:ConnectionId='0' x:Name="btnbre" Content="bre" HorizontalAlignment="Left" Margin="15,113,0,0" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_uno-01-01.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:ConnectionId='0' x:Name="btnbri" Content="bri" HorizontalAlignment="Left" Margin="15,216,0,0" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_uno-01-01.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:ConnectionId='0' x:Name="btnbro" Content="bro" HorizontalAlignment="Left" Margin="15,319,0,0" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_uno-01-01.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:ConnectionId='0' x:Name="bntbru" Content="bru" HorizontalAlignment="Left" Margin="15,422,0,-19" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_uno-01-01.png"/>
+                </Button.Background>
+            </Button>
+        </Grid>
+
+
+        <Grid HorizontalAlignment="Left" Height="536" VerticalAlignment="Top" Width="207" Margin="165,24,0,0" Grid.Row="1">
+            <Button x:ConnectionId='0' x:Name="btncra" Content="cra" HorizontalAlignment="Left" Margin="15,5,0,0" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_cinco-01-01.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:ConnectionId='0' x:Name="btncre" Content="cre" HorizontalAlignment="Left" Margin="15,107,0,0" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_cinco-01-01.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:ConnectionId='0' x:Name="btncri" Content="cri" HorizontalAlignment="Left" Margin="15,218,0,0" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_cinco-01-01.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:ConnectionId='0' x:Name="btncro" Content="cro" HorizontalAlignment="Left" Margin="15,321,0,0" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_cinco-01-01.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:ConnectionId='0' x:Name="bntcru" Content="cru" HorizontalAlignment="Left" Margin="15,425,0,0" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_cinco-01-01.png"/>
+                </Button.Background>
+            </Button>
+        </Grid>
+
+        <Grid HorizontalAlignment="Left" Height="531" VerticalAlignment="Top" Width="197" Margin="510,29,0,0" Grid.Row="1">
+            <Button x:ConnectionId='0' x:Name="btndra" Content="dra" HorizontalAlignment="Left" Margin="15,5,0,0" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_cuatro-01-01.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:ConnectionId='0' x:Name="btndre" Content="dre" HorizontalAlignment="Left" Margin="15,107,0,0" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_cuatro-01-01.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:ConnectionId='0' x:Name="btndri" Content="dri" HorizontalAlignment="Left" Margin="15,214,0,0" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_cuatro-01-01.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:ConnectionId='0' x:Name="btndro" Content="dro" HorizontalAlignment="Left" Margin="15,317,0,0" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_cuatro-01-01.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:ConnectionId='0' x:Name="bntdru" Content="dru" HorizontalAlignment="Left" Margin="15,420,0,0" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_cuatro-01-01.png"/>
+                </Button.Background>
+            </Button>
+        </Grid>
+
+        <MediaElement x:Name="med1" HorizontalAlignment="Left" Height="51" Margin="734,113,0,0" VerticalAlignment="Top" Width="58" Grid.RowSpan="2"/>
+
+        <Grid HorizontalAlignment="Left" Height="536" VerticalAlignment="Top" Width="208" Margin="338,24,0,0" Grid.Row="1">
+            <Button x:ConnectionId='0' x:Name="btnfra" Content="fra" HorizontalAlignment="Left" Margin="15,5,0,0" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_dos-01-01.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:ConnectionId='0' x:Name="btnfre" Content="fre" HorizontalAlignment="Left" Margin="15,107,0,0" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_dos-01-01.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:ConnectionId='0' x:Name="btnfri" Content="fri" HorizontalAlignment="Left" Margin="15,219,0,0" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_dos-01-01.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:ConnectionId='0' x:Name="btnfro" Content="fro" HorizontalAlignment="Left" Margin="15,322,0,0" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_dos-01-01.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:ConnectionId='0' x:Name="bntfru" Content="fru" HorizontalAlignment="Left" Margin="14,425,0,0" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_dos-01-01.png"/>
+                </Button.Background>
+            </Button>
+        </Grid>
+
+        <Grid HorizontalAlignment="Left" Height="546" VerticalAlignment="Top" Width="655" Margin="679,29,0,0" Grid.Row="1">
+            <Button x:ConnectionId='0' x:Name="btnbla" Content="bla" HorizontalAlignment="Left" Margin="15,5,0,0" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_cinco-01-01.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:ConnectionId='0' x:Name="btnble" Content="ble" HorizontalAlignment="Left" Margin="15,107,0,0" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_cinco-01-01.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:ConnectionId='0' x:Name="btnbli" Content="bli" HorizontalAlignment="Left" Margin="15,210,0,0" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_cinco-01-01.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:ConnectionId='0' x:Name="btnblo" Content="blo" HorizontalAlignment="Left" Margin="15,313,0,0" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_cinco-01-01.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:ConnectionId='0' x:Name="bntblu" Content="blu" HorizontalAlignment="Left" Margin="15,416,0,0" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_cinco-01-01.png"/>
+                </Button.Background>
+            </Button>
+        </Grid>
+
+
+        <Grid HorizontalAlignment="Left" Height="546" VerticalAlignment="Top" Width="207" Margin="849,31,0,0" Grid.Row="1">
+            <Button x:ConnectionId='0' x:Name="btncla" Content="cla" HorizontalAlignment="Left" Margin="15,5,0,0" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_cuatro-01-01.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:ConnectionId='0' x:Name="btncle" Content="cle" HorizontalAlignment="Left" Margin="15,107,0,0" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_cuatro-01-01.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:ConnectionId='0' x:Name="btncli" Content="cli" HorizontalAlignment="Left" Margin="15,204,0,0" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_cuatro-01-01.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:ConnectionId='0' x:Name="btnclo" Content="clo" HorizontalAlignment="Left" Margin="15,307,0,0" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_cuatro-01-01.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:ConnectionId='0' x:Name="bntclu" Content="clu" HorizontalAlignment="Left" Margin="15,410,0,0" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_cuatro-01-01.png"/>
+                </Button.Background>
+            </Button>
+        </Grid>
+
+        <Grid HorizontalAlignment="Left" Height="529" VerticalAlignment="Top" Width="194" Margin="1021,31,0,0" Grid.Row="1">
+            <Button x:ConnectionId='0' x:Name="btnfla" Content="fla" HorizontalAlignment="Left" Margin="15,5,0,0" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_dos-01-01.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:ConnectionId='0' x:Name="btnfle" Content="fle" HorizontalAlignment="Left" Margin="15,107,0,0" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_dos-01-01.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:ConnectionId='0' x:Name="btnfli" Content="fli" HorizontalAlignment="Left" Margin="15,210,0,0" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_dos-01-01.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:ConnectionId='0' x:Name="btnflo" Content="flo" HorizontalAlignment="Left" Margin="15,308,0,0" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_dos-01-01.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:ConnectionId='0' x:Name="bntflu" Content="flu" HorizontalAlignment="Left" Margin="15,411,0,0" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_dos-01-01.png"/>
+                </Button.Background>
+            </Button>
+        </Grid>
+
+
+        <Grid HorizontalAlignment="Left" Height="549" VerticalAlignment="Top" Width="181" Margin="1185,26,0,0" Grid.Row="1">
+            <Button x:ConnectionId='0' x:Name="btngla" Content="gla" HorizontalAlignment="Left" Margin="15,5,0,0" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_seis-01-01.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:ConnectionId='0' x:Name="btngle" Content="gle" HorizontalAlignment="Left" Margin="15,107,0,0" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_seis-01-01.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:ConnectionId='0' x:Name="btngli" Content="gli" HorizontalAlignment="Left" Margin="15,211,0,0" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_seis-01-01.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:ConnectionId='0' x:Name="btnglo" Content="glo" HorizontalAlignment="Left" Margin="15,314,0,0" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_seis-01-01.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:ConnectionId='0' x:Name="bntglu" Content="glu" HorizontalAlignment="Left" Margin="15,417,0,0" VerticalAlignment="Top" Width="166" Height="104"                      BorderBrush="{x:Null}" FontSize="34">
+                <Button.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Botones/m_seis-01-01.png"/>
+                </Button.Background>
+            </Button>
+        </Grid>
+
+
+    </Grid>
+</Page>
+

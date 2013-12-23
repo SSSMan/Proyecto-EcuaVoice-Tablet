@@ -1,0 +1,162 @@
+﻿<Page
+    x:Name="pageRoot"
+    x:Class="PalIn.Comunicador"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PalIn"
+    xmlns:common="using:PalIn.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">My Application</x:String>
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid>
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="Fondos/fondo cinco-01.png"/>
+        </Grid.Background>
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+        <Grid Background="#FFE9B633">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="backButton" Margin="39,59,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+                        Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        VerticalAlignment="Top"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button" Foreground="White" BorderBrush="#FF708BE6" Background="#FF2F4FB9"/>
+            <TextBlock x:Name="pageTitle" Text="Comunicador" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+                        IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40" Foreground="White"/>
+
+        </Grid>
+        <ScrollViewer Height="407" Margin="10,172,992,49" Grid.Row="1" >
+            <Grid Background="#FFF5F557" Height="650" Width="364">
+                <Button x:Name="btnYo" Content="" HorizontalAlignment="Left" Margin="10,6,0,0" VerticalAlignment="Top" Width="150" Height="160" Click="btnYo_Click">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Pictogramas/Yo.png"/>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="btnTu" Content="" HorizontalAlignment="Left" Margin="178,7,0,0" VerticalAlignment="Top" Width="150" Height="160" Click="btnTu_Click">
+                    <Button.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="/Pictogramas/tu.png"/>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="btnElla" HorizontalAlignment="Left" Margin="178,209,0,0" VerticalAlignment="Top" Width="150" Height="160" Click="btnElla_Click">
+                    <Button.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="/Pictogramas/ella.png"/>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="btnEl" Content="" HorizontalAlignment="Left" Margin="10,211,0,0" VerticalAlignment="Top"  Width="150" Height="160" Click="btnEl_Click">
+                    <Button.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="/Pictogramas/el.png"/>
+                    </Button.Background>
+                </Button>
+                <TextBlock HorizontalAlignment="Left" Margin="4,169,0,0" TextWrapping="Wrap" Text="Yo" VerticalAlignment="Top" Width="149" FontSize="32" Foreground="#FF5B5B24" FontFamily="Segoe WP Semibold" TextAlignment="Center"/>
+                <TextBlock HorizontalAlignment="Left" Margin="158,169,0,0" TextWrapping="Wrap" Text="Tu" VerticalAlignment="Top" Width="149" FontSize="32" Foreground="#FF5B5B24" FontFamily="Segoe WP Semibold" TextAlignment="Center"/>
+                <TextBlock HorizontalAlignment="Left" Margin="45,425,0,0" TextWrapping="Wrap" Text="El" VerticalAlignment="Top" Width="149" FontSize="32" Foreground="#FF5B5B24" FontFamily="Segoe WP Semibold" TextAlignment="Center"/>
+                <TextBlock HorizontalAlignment="Left" Margin="271,425,0,0" TextWrapping="Wrap" Text="Ella" VerticalAlignment="Top" Width="149" FontSize="32" Foreground="#FF5B5B24" FontFamily="Segoe WP Semibold" TextAlignment="Center"/>
+            </Grid>
+        </ScrollViewer>
+
+
+        <ScrollViewer Height="407" Width="456" Margin="523,166,387,55" Grid.Row="1"  >
+            <Grid Height="650" Width="456" Background="#FF708BE6">
+                <Button x:Name="btnQuiero" Content="" HorizontalAlignment="Left" Margin="10,6,0,0" VerticalAlignment="Top" Width="202" Height="203" Click="btnQuiero_Click">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Pictogramas/Querer.png"/>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="btnNoQuiero" Content="" HorizontalAlignment="Left" Margin="244,6,0,0" VerticalAlignment="Top" Width="202" Height="203" Click="btnNoQuiero_Click">
+                    <Button.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="/Pictogramas/NoQuerer.png"/>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="btnJugar" Content="" HorizontalAlignment="Left" Margin="244,231,0,0" VerticalAlignment="Top" Width="202" Height="204" Click="btnJugar_Click">
+                    <Button.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="/Pictogramas/Jugar.png"/>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="btnComer" Content="" HorizontalAlignment="Left" Margin="10,231,0,0" VerticalAlignment="Top"  Width="202" Height="204" Click="btnComer_Click">
+                    <Button.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="/Pictogramas/Comer.png"/>
+                    </Button.Background>
+                </Button>
+                <TextBlock HorizontalAlignment="Left" Margin="31,194,0,0" TextWrapping="Wrap" Text="Quiero" VerticalAlignment="Top" Width="149" FontSize="32" Foreground="#FF2D385F" FontFamily="Segoe WP Semibold" TextAlignment="Center"/>
+                <TextBlock HorizontalAlignment="Left" Margin="247,194,0,0" TextWrapping="Wrap" Text="No Quiero" VerticalAlignment="Top" Width="199" FontSize="32" Foreground="#FF2D385F" FontFamily="Segoe WP Semibold" TextAlignment="Center"/>
+                <TextBlock HorizontalAlignment="Left" Margin="31,425,0,0" TextWrapping="Wrap" Text="Comer" VerticalAlignment="Top" Width="149" FontSize="32" Foreground="#FF2D385F" FontFamily="Segoe WP Semibold" TextAlignment="Center"/>
+                <TextBlock HorizontalAlignment="Left" Margin="269,425,0,0" TextWrapping="Wrap" Text="Jugar" VerticalAlignment="Top" Width="149" FontSize="32" Foreground="#FF2D385F" FontFamily="Segoe WP Semibold" TextAlignment="Center"/>
+            </Grid>
+        </ScrollViewer>
+
+        <ScrollViewer Height="407" Width="456" Margin="1019,166,-109,55" Grid.Row="1"  >
+            <Grid Height="650" Width="456" Background="#FFF17373">
+                <Button x:Name="btnAgua" Content="" HorizontalAlignment="Left" Margin="10,6,0,0" VerticalAlignment="Top" Width="202" Height="203" Click="btnAgua_Click">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Pictogramas/Agua.png"/>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="btnGalletas" Content="" HorizontalAlignment="Left" Margin="244,6,0,0" VerticalAlignment="Top" Width="202" Height="203" Click="btnGalletas_Click">
+                    <Button.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="/Pictogramas/Galletas.png"/>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="btnSopa" Content="" HorizontalAlignment="Left" Margin="244,231,0,0" VerticalAlignment="Top" Width="202" Height="204" Click="btnSopa_Click">
+                    <Button.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="/Pictogramas/Sopa.png"/>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="btnLeche" Content="" HorizontalAlignment="Left" Margin="10,231,0,0" VerticalAlignment="Top"  Width="202" Height="204" Click="btnLeche_Click">
+                    <Button.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="/Pictogramas/Leche.png"/>
+                    </Button.Background>
+                </Button>
+                <TextBlock HorizontalAlignment="Left" Margin="31,196,0,0" TextWrapping="Wrap" Text="Agua" VerticalAlignment="Top" Width="149" FontSize="32" Foreground="#FF5D2E2E" FontFamily="Segoe WP Semibold" TextAlignment="Center"/>
+                <TextBlock HorizontalAlignment="Left" Margin="247,198,0,0" TextWrapping="Wrap" Text="Galletas" VerticalAlignment="Top" Width="199" FontSize="32" Foreground="#FF5D2E2E" FontFamily="Segoe WP Semibold" TextAlignment="Center"/>
+                <TextBlock HorizontalAlignment="Left" Margin="45,425,0,0" TextWrapping="Wrap" Text="Leche" VerticalAlignment="Top" Width="149" FontSize="32" Foreground="#FF5D2E2E" FontFamily="Segoe WP Semibold" TextAlignment="Center"/>
+                <TextBlock HorizontalAlignment="Left" Margin="261,425,0,0" TextWrapping="Wrap" Text="Sopa" VerticalAlignment="Top" Width="149" FontSize="32" Foreground="#FF5D2E2E" FontFamily="Segoe WP Semibold" TextAlignment="Center"/>
+            </Grid>
+        </ScrollViewer>
+
+        <Button x:Name="btnHablar" Content="Hablar" HorizontalAlignment="Left" Margin="905,39,0,0" VerticalAlignment="Top" Height="87" Width="140" FontSize="30" BorderBrush="{x:Null}" Click="btnHablar_Click" Grid.Row="1">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="Botones/m_cinco-01-01.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnBorrar" Content="Borrar" HorizontalAlignment="Left" Margin="1061,39,0,0" VerticalAlignment="Top" Height="87" Width="140" FontSize="30" BorderBrush="{x:Null}" Click="btnBorrar_Click" Grid.Row="1">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="Botones/m_seis-01-01.png"/>
+            </Button.Background>
+        </Button>
+
+        <Button x:Name="btnParar" Content="Parar" HorizontalAlignment="Left" Margin="1200,39,0,0" VerticalAlignment="Top" Height="87" Width="140" FontSize="30" BorderBrush="{x:Null}" Click="btnParar_Click" Grid.Row="1">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="Botones/m_tres-01-01.png"/>
+            </Button.Background>
+        </Button>
+
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="66" Margin="10,42,0,0" VerticalAlignment="Top" Width="708" Stroke="#FF57AF61" Grid.Row="1"/>
+        <MediaElement x:Name="med1" HorizontalAlignment="Left" Height="51" Margin="212,138,0,0" VerticalAlignment="Top" Width="58" Grid.Row="1"/>
+        <TextBlock x:Name="txbTexto" HorizontalAlignment="Left" Margin="10,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="698" Height="66"  FontSize="48" Foreground="#FF298CB6" FontFamily="Segoe WP Semibold" Grid.Row="1"/>
+    </Grid>
+</Page>
